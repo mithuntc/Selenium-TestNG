@@ -1,0 +1,30 @@
+package rahulshettyacademy.TestComponents;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.time.Duration;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class BaseTest {
+	public WebDriver driver;
+	public void initializeDriver() throws IOException {
+		
+		Properties pro = new Properties();
+		//covert file to input stream
+		FileInputStream fls = new FileInputStream("D:\\Selenium Automation\\Web-test-Projects\\SeleniumFrameworkDesign\\SeleniumFrameworkDesign\\src\\main\\java\\rahulshettyacademy\\resources\\GlobalData.properties");
+		pro.load(fls);
+		String browserName = pro.getProperty("browser");
+		if(browserName=="chrome") {
+			WebDriverManager.chromedriver().setup();
+			WebDriver driver = new ChromeDriver();
+		}
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().window().maximize();
+	}
+
+}

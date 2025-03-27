@@ -1,0 +1,22 @@
+package rahulshettyacademy.tests;
+import java.io.IOException;
+import java.util.List;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+import rahulshettyacademy.TestComponents.BaseTest;
+import rahulshettyacademy.pageobjects.CartPage;
+import rahulshettyacademy.pageobjects.CheckoutPage;
+import rahulshettyacademy.pageobjects.ProductCatalogue;
+
+public class ErrorValidations extends BaseTest {
+
+	@Test
+	public void submitOrder() throws IOException, InterruptedException {
+		// TODO Auto-generated method stub
+		String productName = "ZARA COAT 3";
+		ProductCatalogue secondPage = firstPage.loginApplication("mm@tt.com", "1234s567@As");
+		
+      
+	}
+
+}

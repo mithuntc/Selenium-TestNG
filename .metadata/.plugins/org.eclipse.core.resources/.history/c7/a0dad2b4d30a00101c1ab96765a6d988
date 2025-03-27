@@ -1,0 +1,34 @@
+package rahulshettyacademy.tests;
+import java.io.IOException;
+import java.util.List;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+import rahulshettyacademy.TestComponents.BaseTest;
+import rahulshettyacademy.pageobjects.CartPage;
+import rahulshettyacademy.pageobjects.CheckoutPage;
+import rahulshettyacademy.pageobjects.ProductCatalogue;
+
+public class ErrorValidations extends BaseTest {
+
+	@Test
+	public void submitOrder() throws IOException, InterruptedException {
+		// TODO Auto-generated method stub
+		String productName = "ZARA COAT 3";
+		ProductCatalogue secondPage = firstPage.loginApplication("mm@mm.com", "1234567@As");
+        List<WebElement> items = secondPage.getProductList();
+		secondPage.getProductByName(productName);
+		secondPage.addProductToCart(productName);
+		// clicking cart icon
+		secondPage.goToCartPage();
+		// on cart page
+		CartPage cart = secondPage.goToCartPage();
+		Boolean match = cart.VerifyProductDisplay(productName);
+		System.out.println(match);
+		CheckoutPage checkout = cart.goToCheckout();
+		// checkout section and placing an order
+		checkout.selectCountry("india");
+		checkout.submitOrder();
+
+	}
+
+}

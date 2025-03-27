@@ -1,41 +1,52 @@
 package rahulshettyacademy.tests;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import java.time.Duration;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import java.io.IOException;
+import java.util.List;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import rahulshettyacademy.TestComponents.BaseTest;
 import rahulshettyacademy.pageobjects.CartPage;
 import rahulshettyacademy.pageobjects.CheckoutPage;
-import rahulshettyacademy.pageobjects.LandingPage;
+import rahulshettyacademy.pageobjects.OrderPage;
 import rahulshettyacademy.pageobjects.ProductCatalogue;
 
-public class SubmitOrderTest {
-
-	public static void main(String[] args) throws InterruptedException {
+public class SubmitOrderTest extends BaseTest {
+	String productName = "ZARA COAT 3";
+	@Test(groups= {"erroHandling"})
+	public void submitOrderValidationTest() throws IOException, InterruptedException {
 		// TODO Auto-generated method stub
-		String productName = "ZARA COAT 3";
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		LandingPage firstPage = new LandingPage(driver);
-		firstPage.goTo();
-		firstPage.loginApplication("mm@mm.com", "1234567@As");
-		ProductCatalogue secondPage = new ProductCatalogue(driver);
-//				List<WebElement> items = secondPage.getProductList();
+		firstPage.loginApplication("mm@tt.com", "1234s567@As");
+		Assert.assertEquals(" Incorrect email or password. ", firstPage.getErrorMessage());
+
+	}
+	
+	@Test
+	public void submitOrder() throws IOException, InterruptedException {
+		// TODO Auto-generated method stub
+		ProductCatalogue secondPage = firstPage.loginApplication("mm@mm.com", "1234567@As");
+		List<WebElement> items = secondPage.getProductList();
 		secondPage.getProductByName(productName);
 		secondPage.addProductToCart(productName);
 		// clicking cart icon
 		secondPage.goToCartPage();
 		// on cart page
-		CartPage cart = new CartPage(driver);
+		CartPage cart = secondPage.goToCartPage();
 		Boolean match = cart.VerifyProductDisplay(productName);
 		System.out.println(match);
-		cart.goToCheckout();
+		CheckoutPage checkout = cart.goToCheckout();
 		// checkout section and placing an order
-		CheckoutPage checkout = new CheckoutPage(driver);
 		checkout.selectCountry("india");
 		checkout.submitOrder();
 
 	}
+	
+	@Test(dependsOnMethods = {"submitOrder"})
+	public void OrderHistoryTest() {
+		ProductCatalogue secondPage = firstPage.loginApplication("mm@mm.com", "1234567@As");	
+		OrderPage order = secondPage.goToOrdersPage();
+		Assert.assertTrue(order.VerifyOrderDisplay(productName));
+	}
+	
 
 }
