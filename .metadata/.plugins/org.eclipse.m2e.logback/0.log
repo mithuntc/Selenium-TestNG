@@ -2672,3 +2672,82 @@
 2025-03-29 16:16:55,662 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-03-29 16:16:55,662 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
 2025-03-29 16:19:19,406 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-03-29 16:43:22,528 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-03-29 16:44:07,760 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\ExtendReports\ExtendsReport\src\main\resources
+2025-03-29 16:44:07,765 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\ExtendReports\ExtendsReport\src\test\resources
+2025-03-29 16:44:09,470 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:44:09,470 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:44:09,475 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:44:09,475 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:44:21,300 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:44:21,300 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:44:21,303 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:44:21,304 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:44:39,969 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:44:39,969 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:44:39,972 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:44:39,972 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:44:54,171 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:44:54,172 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:44:54,176 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:44:54,176 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:45:12,300 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:45:12,300 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:45:12,302 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:45:12,302 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:45:35,331 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:45:35,332 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:45:35,334 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:45:35,335 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:46:03,806 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:46:03,806 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:46:03,808 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:46:03,808 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:46:13,481 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:46:13,481 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:46:13,483 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:46:13,483 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:46:22,139 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:46:22,140 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:46:22,141 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:46:22,141 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:46:26,017 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:46:26,017 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:46:26,019 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:46:26,019 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:47:08,692 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:47:08,693 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:47:08,694 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:47:08,694 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:47:38,463 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:47:38,463 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:47:38,465 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:47:38,465 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:48:01,657 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:48:01,657 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:48:01,658 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:48:01,658 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:49:20,341 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:49:20,341 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:49:20,344 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:49:20,344 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:50:04,572 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:50:04,572 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:50:04,573 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:50:04,574 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:51:41,504 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:51:41,504 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:51:41,506 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:51:41,506 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:52:26,765 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:52:26,765 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:52:26,768 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:52:26,768 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:53:26,933 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:53:26,934 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:53:26,935 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:53:26,935 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 16:54:29,718 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:54:29,718 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 16:54:29,719 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 16:54:29,719 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources

@@ -9,10 +9,10 @@
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SeleniumFrameworkDesign"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
     <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
-        <mapEntry key="rahulshettyacademy.tests.SubmitOrderTest" value="getSreenshots;submitOrderValidationTest;submitOrder;OrderHistoryTest;getData"/>
+        <mapEntry key="midhun.tests.SubmitOrderTest" value="submitOrderValidationTest;submitOrder;getData;OrderHistoryTest"/>
     </mapAttribute>
     <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
-        <listEntry value="rahulshettyacademy.tests.SubmitOrderTest"/>
+        <listEntry value="midhun.tests.SubmitOrderTest"/>
     </listAttribute>
     <booleanAttribute key="org.testng.eclipse.DEBUG" value="false"/>
     <listAttribute key="org.testng.eclipse.GROUP_LIST"/>
