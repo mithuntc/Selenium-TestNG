@@ -2751,3 +2751,11 @@
 2025-03-29 16:54:29,718 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
 2025-03-29 16:54:29,719 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-03-29 16:54:29,719 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 17:00:12,646 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-03-29 17:01:19,229 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-03-29 17:01:41,608 [Worker-17: Launching SubmitOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 17:01:41,609 [Worker-17: Launching SubmitOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\main\resources
+2025-03-29 17:01:41,613 [Worker-17: Launching SubmitOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-03-29 17:01:41,613 [Worker-17: Launching SubmitOrderTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\SeleniumFrameworkDesign\SeleniumFrameworkDesign\src\test\resources
+2025-03-29 17:01:42,651 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\ExtendReports\ExtendsReport\src\main\resources
+2025-03-29 17:01:42,660 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Selenium Automation\Web-test-Projects\ExtendReports\ExtendsReport\src\test\resources
