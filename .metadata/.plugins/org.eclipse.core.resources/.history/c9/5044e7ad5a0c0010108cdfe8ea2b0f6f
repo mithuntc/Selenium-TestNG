@@ -1,0 +1,28 @@
+package midhunAcademy.ExtendsReport;
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class ExtendReportsDemo {
+	@BeforeTest
+	public void beforeExcecution() {
+		
+		//ExtentReports, ExtentSparkReporter -> for generating reports
+		String path = System.getProperty("user.dir"+"/reports/index.html");
+		ExtentSparkReporter reporter  = new ExtentSparkReporter(path);
+		reporter.config();
+	}
+	
+	
+	@Test
+	public void initialDemo() {
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com");
+		String title = driver.getTitle();
+		System.out.println(title);
+	}
+}

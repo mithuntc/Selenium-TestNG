@@ -1,0 +1,11 @@
+package midhunAcademy.ExtendsReport;
+
+import org.testng.annotations.Test;
+
+public class ExtendReportsDemo {
+
+	@Test
+	public void initialDemo() {
+		
+	}
+}

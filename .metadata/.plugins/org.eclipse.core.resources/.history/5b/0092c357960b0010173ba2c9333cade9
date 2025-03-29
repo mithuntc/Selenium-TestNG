@@ -1,0 +1,10 @@
+package rahulshettyacademy.data;
+
+public class DataReader {
+	
+	public void getJsonData(){
+		
+		
+	}
+
+}
