@@ -1,0 +1,9 @@
+package rahulshettyacademy.resources;
+
+public class ExtendReportNG {
+
+	public void getReport() {
+		
+		
+	}
+}

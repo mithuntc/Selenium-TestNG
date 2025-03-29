@@ -47,15 +47,6 @@ public class SubmitOrderTest extends BaseTest {
 
 	}
 	
-	public String getSreenshots(String tastCaseName) throws IOException {
-		
-		TakesScreenshot ts  = (TakesScreenshot)driver;
-		File source = ts.getScreenshotAs(OutputType.FILE);
-		File file  = new File(System.getProperty("user.dir")+"//reports//"+tastCaseName+".png");
-		FileUtils.copyFile(source, file);
-		return System.getProperty("user.dir")+"//reports//"+tastCaseName+".png";
-	}
-	
 	@Test(dependsOnMethods = {"submitOrder"})
 	public void OrderHistoryTest() {
 		ProductCatalogue secondPage = firstPage.loginApplication("mm@mm.com", "1234567@As");	

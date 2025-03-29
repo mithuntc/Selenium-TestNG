@@ -17,7 +17,7 @@
 
 	<test thread-count="5" name="Error Validations Test">
 		<classes>
-			<class name="rahulshettyacademy.tests.ErrorValidationsTest" />
+			<class name="rahulshettyacademy.tests.ErrorValidations" />
 		</classes>
 	</test> <!--
 	Test -->
