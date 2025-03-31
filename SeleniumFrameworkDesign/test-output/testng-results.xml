@@ -1,74 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-29T17:01:43 IST" name="Default suite" finished-at="2025-03-29T17:02:00 IST" duration-ms="17149">
+  <suite started-at="2025-03-31T12:38:01 IST" name="Default suite" finished-at="2025-03-31T12:38:04 IST" duration-ms="3014">
     <groups>
-      <group name="{Purchase}">
-        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:midhun.tests.SubmitOrderTest@3d285d7e]" name="submitOrder" class="midhun.tests.SubmitOrderTest"/>
-      </group> <!-- {Purchase} -->
-      <group name="erroHandling">
-        <method signature="SubmitOrderTest.submitOrderValidationTest()[pri:0, instance:midhun.tests.SubmitOrderTest@3d285d7e]" name="submitOrderValidationTest" class="midhun.tests.SubmitOrderTest"/>
-      </group> <!-- erroHandling -->
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@3c3d9b6b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-03-29T17:01:43 IST" name="Default test" finished-at="2025-03-29T17:02:00 IST" duration-ms="17149">
-      <class name="midhun.tests.SubmitOrderTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:midhun.tests.SubmitOrderTest@3d285d7e]" started-at="2025-03-29T17:01:43 IST" name="launchApplication" finished-at="2025-03-29T17:01:47 IST" duration-ms="3098" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:midhun.tests.SubmitOrderTest@3d285d7e]" started-at="2025-03-29T17:01:47 IST" name="submitOrder" data-provider="getData" finished-at="2025-03-29T17:01:50 IST" duration-ms="3039" status="PASS">
+    <test started-at="2025-03-31T12:38:01 IST" name="Default test" finished-at="2025-03-31T12:38:04 IST" duration-ms="3014">
+      <class name="cucumber.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.TestNGTestRunner@3c3d9b6b]" started-at="2025-03-31T12:38:01 IST" name="setUpClass" finished-at="2025-03-31T12:38:02 IST" duration-ms="534" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=1234567@As, email=mm@mm.com, productName=ADIDAS ORIGINAL}]]>
+                <![CDATA[org.testng.TestRunner@558756be]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closingDriver()[pri:0, instance:midhun.tests.SubmitOrderTest@3d285d7e]" started-at="2025-03-29T17:01:50 IST" name="closingDriver" finished-at="2025-03-29T17:01:50 IST" duration-ms="111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingDriver -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:midhun.tests.SubmitOrderTest@3d285d7e]" started-at="2025-03-29T17:01:50 IST" name="launchApplication" finished-at="2025-03-29T17:01:52 IST" duration-ms="2459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:midhun.tests.SubmitOrderTest@3d285d7e]" started-at="2025-03-29T17:01:52 IST" name="submitOrder" data-provider="getData" finished-at="2025-03-29T17:01:55 IST" duration-ms="2833" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.TestNGTestRunner@3c3d9b6b]" started-at="2025-03-31T12:38:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-31T12:38:04 IST" duration-ms="2394" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{password=1234567@As, email=mm@mm.com, productName=ZARA COAT 3}]]>
+                <![CDATA["Positive test of submiting an order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from a e-commerce website"]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="closingDriver()[pri:0, instance:midhun.tests.SubmitOrderTest@3d285d7e]" started-at="2025-03-29T17:01:55 IST" name="closingDriver" finished-at="2025-03-29T17:01:55 IST" duration-ms="107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingDriver -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:midhun.tests.SubmitOrderTest@3d285d7e]" started-at="2025-03-29T17:01:55 IST" name="launchApplication" finished-at="2025-03-29T17:01:57 IST" duration-ms="1616" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrderValidationTest()[pri:0, instance:midhun.tests.SubmitOrderTest@3d285d7e]" started-at="2025-03-29T17:01:57 IST" name="submitOrderValidationTest" finished-at="2025-03-29T17:01:57 IST" duration-ms="385" status="FAIL">
-          <exception class="java.lang.AssertionError">
+          <exception class="io.cucumber.testng.UndefinedStepException">
             <message>
-              <![CDATA[expected [Incorrect email or password.] but found [ Incorrect email or password. ]]]>
+              <![CDATA[The step 'Logged in  wit the Username mm@mm.com and password 1234567@As' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Logged in  wit the Username mm@mm.com and password {int}@As")
+public void logged_in_wit_the_username_mm_mm_com_and_password_as(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Checkout ZARA COAT {int} and Submit the order")
+public void checkout_zara_coat_and_submit_the_order(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{string} message displayed on ConfirmationPage")
+public void message_displayed_on_confirmation_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [ Incorrect email or password. ]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at midhun.tests.SubmitOrderTest.submitOrderValidationTest(SubmitOrderTest.java:24)
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'Logged in  wit the Username mm@mm.com and password 1234567@As' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Logged in  wit the Username mm@mm.com and password {int}@As")
+public void logged_in_wit_the_username_mm_mm_com_and_password_as(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Checkout ZARA COAT {int} and Submit the order")
+public void checkout_zara_coat_and_submit_the_order(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{string} message displayed on ConfirmationPage")
+public void message_displayed_on_confirmation_page(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -97,27 +112,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- submitOrderValidationTest -->
-        <test-method is-config="true" signature="closingDriver()[pri:0, instance:midhun.tests.SubmitOrderTest@3d285d7e]" started-at="2025-03-29T17:01:57 IST" name="closingDriver" finished-at="2025-03-29T17:01:57 IST" duration-ms="89" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.TestNGTestRunner@3c3d9b6b]" started-at="2025-03-31T12:38:04 IST" name="tearDownClass" finished-at="2025-03-31T12:38:04 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closingDriver -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:midhun.tests.SubmitOrderTest@3d285d7e]" started-at="2025-03-29T17:01:57 IST" name="launchApplication" finished-at="2025-03-29T17:02:00 IST" duration-ms="2426" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApplication -->
-        <test-method signature="OrderHistoryTest()[pri:0, instance:midhun.tests.SubmitOrderTest@3d285d7e]" started-at="2025-03-29T17:02:00 IST" name="OrderHistoryTest" finished-at="2025-03-29T17:02:00 IST" depends-on-methods="midhun.tests.SubmitOrderTest.submitOrder" duration-ms="576" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrderHistoryTest -->
-        <test-method is-config="true" signature="closingDriver()[pri:0, instance:midhun.tests.SubmitOrderTest@3d285d7e]" started-at="2025-03-29T17:02:00 IST" name="closingDriver" finished-at="2025-03-29T17:02:00 IST" duration-ms="118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingDriver -->
-      </class> <!-- midhun.tests.SubmitOrderTest -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.TestNGTestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
